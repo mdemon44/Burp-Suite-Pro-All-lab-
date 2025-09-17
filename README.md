@@ -51,9 +51,9 @@ Each folder contains:
 
 ## 📬 Connect With Me
 
-- 💼 GitHub: [github.com/yourusername](https://github.com/yourusername)
-- 📧 Email: your.email@example.com
-- 🕹️ Instagram: [@finalshot.gg](https://instagram.com/finalshot.gg) *(if applicable)*
+- 💼 GitHub: [github.com/mdemon44](https://github.com/mdemon44)
+- 📧 Email: emonsec@hotmail.com
+- 🕹️ ctftime: [@emonsec]((https://ctftime.org/user/238284)) *(if applicable)*
 
 ---
 
