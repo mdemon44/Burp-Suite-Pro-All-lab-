@@ -89,9 +89,5 @@ Each folder includes:
 ---
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/mdemon44/finalshot-assets/main/finalshot-banner.png" alt="Final Shot Banner" width="600"/>
-</p>
-
-<p align="center">
   <em>Built with 💻, 🔥, and a passion for cybersecurity.</em>
 </p>
