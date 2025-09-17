@@ -1,97 +1,62 @@
-# PortSwigger Web Security Academy – Full Lab Writeups
+# 🛡️ PortSwigger Web Security Academy – All Lab Solutions
 
-![PortSwigger Writeup Overview](https://github.com/user-attachments/assets/cc2f4fd4-0bb1-4f69-b40c-5e99a55d8676)
+Welcome to my personal repository of **PortSwigger Web Security Academy** lab solutions. This collection showcases my hands-on experience with web application security, covering every lab offered by the academy.
 
-This repository contains **complete and categorized writeups** for every lab available on the [PortSwigger Web Security Academy](https://portswigger.net/web-security). Each lab folder includes:
+## 🎓 What is PortSwigger Academy?
 
-- Lab title, description, and objectives  
-- Step-by-step solution using real payloads  
-- Exploitation methodology  
-- Manual + Burp Suite techniques  
+[PortSwigger Web Security Academy](https://portswigger.net/web-security) is a free, world-class training platform for learning web security. It offers interactive labs that simulate real-world vulnerabilities, helping learners master offensive security techniques using tools like Burp Suite.
 
-> ✅ **Covers all labs across APPRENTICE, PRACTITIONER, and EXPERT levels.**
+## ✅ Labs Covered
 
----
+I have successfully completed **all available labs**, including:
 
-## 🎯 Lab Categories
+- SQL Injection (Classic, Blind, Second-order)
+- Cross-Site Scripting (Reflected, Stored, DOM-based)
+- Authentication & Session Management
+- Access Control Vulnerabilities
+- CSRF (Cross-Site Request Forgery)
+- XXE (XML External Entity)
+- SSRF (Server-Side Request Forgery)
+- Business Logic Flaws
+- Web Cache Poisoning
+- Clickjacking
+- CORS Misconfigurations
+- OAuth & OpenID Exploits
+- File Upload Vulnerabilities
+- Prototype Pollution
+- Race Conditions
+- And more...
 
-Labs are divided into the following groups:
+## 📁 Repository Structure
 
--  **Server‑Side Vulnerabilities** (14 categories)
-- **Client‑Side Vulnerabilities** (6 categories)
--  **Advanced Exploitation Techniques** (11 categories)
+Each folder contains:
+- ✅ Lab name
+- 📝 Summary of the vulnerability
+- ⚙️ Exploitation steps
+- 🧠 Key takeaways
+- 📸 Screenshots or payloads (where applicable)
 
----
+## 🧰 Tools Used
 
-##  Server‑Side Vulnerabilities
+- Burp Suite (Community & Pro)
+- Browser DevTools
+- Custom scripts (Python, Bash)
+- OWASP ZAP (optional)
 
-| Vulnerability                   | Labs | Link                                                                 |
-|--------------------------------|------|----------------------------------------------------------------------|
-| API Testing                    | 5    | [API Testing](./Server-Side%20labs/API%20testing/)                   |
-| Access Control                 | 13   | [Access Control](./Server-Side%20labs/Access%20Control/)             |
-| Authentication                 | 14   | [Authentication](./Server-Side%20labs/Authentication/)               |
-| Business Logic Vulnerabilities| 11   | [Business Logic](./Server-Side%20labs/Business%20logic%20vulnerabilities/) |
-| Command Injection              | 5    | [Command Injection](./Server-Side%20labs/Command_injection/)         |
-| File Upload                    | 7    | [File Upload](./Server-Side%20labs/File_Upload/)                     |
-| Information Disclosure         | 5    | [Information Disclosure](./Server-Side%20labs/Information%20Disclosure/) |
-| NoSQL Injection                | 4    | [NoSQL Injection](./Server-Side%20labs/NoSQL%20injection/)           |
-| Path Traversal                 | 6    | [Path Traversal](./Server-Side%20labs/Path-traversal/)               |
-| Race Conditions                | 6    | [Race Conditions](./Server-Side%20labs/Race%20Conditions/)           |
-| SQL Injection                  | 18   | [SQL Injection](./Server-Side%20labs/SQL_injection/)                 |
-| SSRF                           | 7    | [SSRF](./Server-Side%20labs/SSRF/)                                   |
-| Web Cache Deception            | 5    | [Web Cache Deception](./Server-Side%20labs/Web%20Cache%20Deception/) |
-| XXE Injection                  | 9    | [XXE](./Server-Side%20labs/XXE/)                                     |
+## 🚀 Why This Repo?
 
-**🧮 Total Server‑Side Labs:** 125
+- To document and share my learning journey
+- To help others understand and replicate exploitation techniques
+- To build a strong foundation for bug bounty, ethical hacking, and penetration testing
 
----
+## 📬 Connect With Me
 
-## Client‑Side Vulnerabilities
-
-| Vulnerability              | Labs | Link                                                                 |
-|---------------------------|------|----------------------------------------------------------------------|
-| Cross-Site Scripting (XSS)| 30   | [XSS](./Client-Side%20labs/Cross%20Site%20Scripting/)                |
-| CSRF                      | 12   | [CSRF](./Client-Side%20labs/CSRF/)                                   |
-| CORS                      | 3    | [CORS](./Client-Side%20labs/CORS/)                                   |
-| Clickjacking              | 5    | [Clickjacking](./Client-Side%20labs/Clickjacking/)                   |
-| DOM-Based Vulnerabilities | 7    | [DOM-Based](./Client-Side%20labs/DOM-based%20vulnerabilities/)       |
-| WebSockets                | 3    | [WebSockets](./Client-Side%20labs/WebSockets/)                       |
-
-**🧮 Total Client‑Side Labs:** 60
+- 💼 GitHub: [github.com/yourusername](https://github.com/yourusername)
+- 📧 Email: your.email@example.com
+- 🕹️ Instagram: [@finalshot.gg](https://instagram.com/finalshot.gg) *(if applicable)*
 
 ---
 
-##  Advanced Exploitation Techniques
-
-| Vulnerability                    | Labs | Link                                                                 |
-|----------------------------------|------|----------------------------------------------------------------------|
-| Essential Skills                | 2    | [Essential Skills](./Advanced%20labs/Essential%20skills/)           |
-| GraphQL                         | 5    | [GraphQL](./Advanced%20labs/GraphQL/)                               |
-| HTTP Host Header Attacks        | 7    | [Host Header](./Advanced%20labs/HTTP%20Host%20header%20attacks/)    |
-| HTTP Request Smuggling          | 21   | [Request Smuggling](./Advanced%20labs/HTTP%20request%20smuggling/)  |
-| Insecure Deserialization        | 10   | [Deserialization](./Advanced%20labs/Insecure%20deserialization/)    |
-| JWT                             | 8    | [JWT](./Advanced%20labs/JWT/)                                       |
-| OAuth                           | 6    | [OAuth](./Advanced%20labs/Oauth/)                                   |
-| Prototype Pollution             | 10   | [Prototype Pollution](./Advanced%20labs/Prototype%20pollution/)     |
-| SSTI (Template Injection)       | 7    | [SSTI](./Advanced%20labs/SSTI/)                                     |
-| Web Cache Poisoning             | 13   | [Cache Poisoning](./Advanced%20labs/Web%20cache%20poisoning/)       |
-| Web LLM Attacks                 | 4    | [LLM Attacks](./Advanced%20labs/Web_LLM_Attacks/)                   |
-
-**🧮 Total Advanced Labs:** 93
+> ⚠️ **Disclaimer**: This repository is for educational purposes only. Do not use these techniques on systems you do not own or have explicit permission to test.
 
 ---
-
-## 📊 Summary
-
-- ✅ **All PortSwigger Labs Covered**
-- 🧠 **From APPRENTICE to EXPERT**
-- 🛠 **Payloads, methodology, and tools provided**
-- 🔍 **Real-world exploitation practices**
-
----
-
-> ⚠️ **Disclaimer**: These writeups are for educational purposes only. Do not use on systems without authorization. Follow responsible disclosure and ethical hacking practices.
-
----
-
-Happy hacking! 🚀
