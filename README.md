@@ -1,8 +1,6 @@
 <h1 align="center" style="color:#00ffcc;">🕶️ PortSwigger Web Security Academy – All Labs Solved</h1>
 
-<p align="center">
-  <img src="(https://portswigger.net/cms/images/24/a4/8376e72f5203-article-academy_social_media_graphics_article.png)" alt="PortSwigger Academy" width="200"/>
-</p>
+
 
 <p align="center">
   <strong>🔐 Mastered every lab. Documented every exploit. Built for learners, hackers, and future red teamers.</strong>
