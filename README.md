@@ -1,79 +1,96 @@
-<h1 align="center">🛡️ PortSwigger Web Security Academy – All Lab Solutions</h1>
+<h1 align="center" style="color:#00ffcc;">🕶️ PortSwigger Web Security Academy – All Labs Solved</h1>
 
 <p align="center">
-  <strong>Completed every lab. Documented every exploit. Built for learners, hackers, and future red teamers.</strong>
+  <img src="https://portswigger.net/images/web-security-academy-logo.svg" alt="PortSwigger Academy" width="200"/>
+</p>
+
+<p align="center">
+  <strong>🔐 Mastered every lab. Documented every exploit. Built for learners, hackers, and future red teamers.</strong>
 </p>
 
 ---
 
-## 📚 About This Repository
+## 🧠 Overview
 
-This repository contains my complete solutions to **all labs** from the [PortSwigger Web Security Academy](https://portswigger.net/web-security). Each lab demonstrates a unique web vulnerability, and I've documented the exploitation process, payloads, and key takeaways for each one.
+This repository contains my complete walkthroughs for **every lab** in the [PortSwigger Web Security Academy](https://portswigger.net/web-security). Each lab is a deep dive into real-world vulnerabilities, with hands-on exploitation and practical insights.
 
----
-
-## ✅ Labs Covered
-
-- 🔓 SQL Injection (Classic, Blind, Second-order)
-- 🐞 Cross-Site Scripting (Reflected, Stored, DOM-based)
-- 🔐 Authentication & Session Management
-- 🚫 Access Control Vulnerabilities
-- 🔁 CSRF (Cross-Site Request Forgery)
-- 📦 XXE (XML External Entity)
-- 🌐 SSRF (Server-Side Request Forgery)
-- 🧠 Business Logic Flaws
-- 🧨 Web Cache Poisoning
-- 🖼️ Clickjacking
-- 🌍 CORS Misconfigurations
-- 🧬 Prototype Pollution
-- 🪪 OAuth & OpenID Exploits
-- 📤 File Upload Vulnerabilities
-- ⏱️ Race Conditions  
-...and more.
+> 💡 **Status:** ✅ All Labs Completed  
+> 🧪 **Focus:** Web Application Security  
+> 🛠️ **Tools:** Burp Suite, Python, DevTools, Bash
 
 ---
 
-## 🧰 Tools & Techniques
+## 🧩 Lab Categories
 
-- 🔍 Burp Suite (Community & Pro)
-- 🧪 Browser DevTools
-- 🐍 Custom Scripts (Python, Bash)
-- 🛠️ Occasional use of OWASP ZAP
+| Category               | Status  | Notes                        |
+|------------------------|---------|------------------------------|
+| SQL Injection          | ✅ Done | Classic, Blind, Second-order |
+| Cross-Site Scripting   | ✅ Done | Reflected, Stored, DOM-based |
+| Authentication         | ✅ Done | Bypass, Multi-factor, JWT     |
+| Access Control         | ✅ Done | Privilege escalation          |
+| CSRF                   | ✅ Done | Token-based, Referer checks   |
+| SSRF                   | ✅ Done | Internal IPs, AWS metadata    |
+| XXE                    | ✅ Done | File disclosure, SSRF         |
+| Business Logic         | ✅ Done | Flawed workflows              |
+| File Upload            | ✅ Done | Extension bypass, RCE         |
+| CORS                   | ✅ Done | Misconfigurations             |
+| OAuth & OpenID         | ✅ Done | Token theft, redirect abuse   |
+| Web Cache Poisoning    | ✅ Done | Header manipulation           |
+| Clickjacking           | ✅ Done | UI redress attacks            |
+| Prototype Pollution    | ✅ Done | Client-side injection         |
+| Race Conditions        | ✅ Done | Time-of-check bypass          |
 
 ---
 
-## 📁 Repository Structure
+## 📁 Repo Structure
 
 Each folder includes:
-- ✅ Lab title
-- 📝 Vulnerability summary
-- ⚙️ Exploitation steps
-- 📸 Screenshots or payloads
-- 🧠 Key insights
+- 📝 Lab title & description  
+- ⚙️ Exploitation steps  
+- 🧠 Key takeaways  
+- 📸 Screenshots or payloads (if applicable)
 
 ---
 
-## 🚀 Why This Matters
+## 🔧 Tools Used
 
-This repo is more than just a checklist—it's a reflection of my growth in web security. I built it to:
-
-- 📖 Document my learning journey
-- 🧠 Help others understand exploitation techniques
-- 🎯 Prepare for bug bounty, CTFs, and professional pentesting
-
----
-
-## 📬 Connect With Me
-
-- 💼 GitHub: [mdemon44](https://github.com/mdemon44)
-- 📧 Email: [emonsec@hotmail.com](mailto:emonsec@hotmail.com)
-- 🕹️ CTFtime: [@emonsec](https://ctftime.org/user/238284)
+- 🛡️ Burp Suite (Community & Pro)
+- 🐍 Python scripts
+- 🧪 Browser DevTools
+- 🛠️ Bash utilities
+- 🧭 Occasional use of OWASP ZAP
 
 ---
 
-> ⚠️ **Disclaimer**: This repository is for educational purposes only. Do not use these techniques on systems you do not own or have explicit permission to test.
+## 🎯 Why This Repo?
+
+- 🧠 To reinforce my learning through documentation  
+- 🧩 To help others understand exploitation techniques  
+- 🕹️ To prepare for bug bounty, CTFs, and red teaming  
+- 🧬 To build a strong cybersecurity portfolio
 
 ---
+
+## 🧑‍💻 About Me
+
+| 🔗 Platform | Link |
+|------------|------|
+| 💼 GitHub   | [mdemon44](https://github.com/mdemon44) |
+| 📧 Email    | [emonsec@hotmail.com](mailto:emonsec@hotmail.com) |
+| 🕹️ CTFtime  | [@emonsec](https://ctftime.org/user/238284) |
+
+---
+
+## ⚠️ Disclaimer
+
+> This repository is for **educational purposes only**.  
+> Do not use these techniques on systems you do not own or have explicit permission to test.
+
+---
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/mdemon44/finalshot-assets/main/finalshot-banner.png" alt="Final Shot Banner" width="600"/>
+</p>
 
 <p align="center">
   <em>Built with 💻, 🔥, and a passion for cybersecurity.</em>
