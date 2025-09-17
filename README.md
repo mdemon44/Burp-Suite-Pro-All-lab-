@@ -1,62 +1,80 @@
-# 🛡️ PortSwigger Web Security Academy – All Lab Solutions
+<h1 align="center">🛡️ PortSwigger Web Security Academy – All Lab Solutions</h1>
 
-Welcome to my personal repository of **PortSwigger Web Security Academy** lab solutions. This collection showcases my hands-on experience with web application security, covering every lab offered by the academy.
+<p align="center">
+  <strong>Completed every lab. Documented every exploit. Built for learners, hackers, and future red teamers.</strong>
+</p>
 
-## 🎓 What is PortSwigger Academy?
+---
 
-[PortSwigger Web Security Academy](https://portswigger.net/web-security) is a free, world-class training platform for learning web security. It offers interactive labs that simulate real-world vulnerabilities, helping learners master offensive security techniques using tools like Burp Suite.
+## 📚 About This Repository
+
+This repository contains my complete solutions to **all labs** from the [PortSwigger Web Security Academy](https://portswigger.net/web-security). Each lab demonstrates a unique web vulnerability, and I've documented the exploitation process, payloads, and key takeaways for each one.
+
+---
 
 ## ✅ Labs Covered
 
-I have successfully completed **all available labs**, including:
+- 🔓 SQL Injection (Classic, Blind, Second-order)
+- 🐞 Cross-Site Scripting (Reflected, Stored, DOM-based)
+- 🔐 Authentication & Session Management
+- 🚫 Access Control Vulnerabilities
+- 🔁 CSRF (Cross-Site Request Forgery)
+- 📦 XXE (XML External Entity)
+- 🌐 SSRF (Server-Side Request Forgery)
+- 🧠 Business Logic Flaws
+- 🧨 Web Cache Poisoning
+- 🖼️ Clickjacking
+- 🌍 CORS Misconfigurations
+- 🧬 Prototype Pollution
+- 🪪 OAuth & OpenID Exploits
+- 📤 File Upload Vulnerabilities
+- ⏱️ Race Conditions  
+...and more.
 
-- SQL Injection (Classic, Blind, Second-order)
-- Cross-Site Scripting (Reflected, Stored, DOM-based)
-- Authentication & Session Management
-- Access Control Vulnerabilities
-- CSRF (Cross-Site Request Forgery)
-- XXE (XML External Entity)
-- SSRF (Server-Side Request Forgery)
-- Business Logic Flaws
-- Web Cache Poisoning
-- Clickjacking
-- CORS Misconfigurations
-- OAuth & OpenID Exploits
-- File Upload Vulnerabilities
-- Prototype Pollution
-- Race Conditions
-- And more...
+---
+
+## 🧰 Tools & Techniques
+
+- 🔍 Burp Suite (Community & Pro)
+- 🧪 Browser DevTools
+- 🐍 Custom Scripts (Python, Bash)
+- 🛠️ Occasional use of OWASP ZAP
+
+---
 
 ## 📁 Repository Structure
 
-Each folder contains:
-- ✅ Lab name
-- 📝 Summary of the vulnerability
+Each folder includes:
+- ✅ Lab title
+- 📝 Vulnerability summary
 - ⚙️ Exploitation steps
-- 🧠 Key takeaways
-- 📸 Screenshots or payloads (where applicable)
+- 📸 Screenshots or payloads
+- 🧠 Key insights
 
-## 🧰 Tools Used
+---
 
-- Burp Suite (Community & Pro)
-- Browser DevTools
-- Custom scripts (Python, Bash)
-- OWASP ZAP (optional)
+## 🚀 Why This Matters
 
-## 🚀 Why This Repo?
+This repo is more than just a checklist—it's a reflection of my growth in web security. I built it to:
 
-- To document and share my learning journey
-- To help others understand and replicate exploitation techniques
-- To build a strong foundation for bug bounty, ethical hacking, and penetration testing
+- 📖 Document my learning journey
+- 🧠 Help others understand exploitation techniques
+- 🎯 Prepare for bug bounty, CTFs, and professional pentesting
+
+---
 
 ## 📬 Connect With Me
 
-- 💼 GitHub: (https://github.com/mdemon44)
-- 📧 Email: emonsec@hotmail.com
-- 🕹️ ctftime: ((https://ctftime.org/user/238284))
+- 💼 GitHub: [mdemon44](https://github.com/mdemon44)
+- 📧 Email: [emonsec@hotmail.com](mailto:emonsec@hotmail.com)
+- 🕹️ CTFtime: [@emonsec](https://ctftime.org/user/238284)
 
 ---
 
 > ⚠️ **Disclaimer**: This repository is for educational purposes only. Do not use these techniques on systems you do not own or have explicit permission to test.
 
 ---
+
+<p align="center">
+  <em>Built with 💻, 🔥, and a passion for cybersecurity.</em>
+</p>
