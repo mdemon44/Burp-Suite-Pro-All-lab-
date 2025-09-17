@@ -53,7 +53,7 @@ Each folder contains:
 
 - 💼 GitHub: [github.com/mdemon44](https://github.com/mdemon44)
 - 📧 Email: emonsec@hotmail.com
-- 🕹️ ctftime: [@emonsec]((https://ctftime.org/user/238284)) *(if applicable)*
+- 🕹️ ctftime: [@emonsec]((https://ctftime.org/user/238284))
 
 ---
 
