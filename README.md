@@ -51,9 +51,9 @@ Each folder contains:
 
 ## 📬 Connect With Me
 
-- 💼 GitHub: [github.com/mdemon44](https://github.com/mdemon44)
+- 💼 GitHub: (https://github.com/mdemon44)
 - 📧 Email: emonsec@hotmail.com
-- 🕹️ ctftime: [@emonsec]((https://ctftime.org/user/238284))
+- 🕹️ ctftime: ((https://ctftime.org/user/238284))
 
 ---
 
